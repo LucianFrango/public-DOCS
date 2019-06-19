@@ -1,0 +1,17 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Padding Adjust between the bookmark bar bookmarks */
+#bookmarks-ptf toolbarbutton.bookmark-item .toolbarbutton-text,
+#personal-bookmarks toolbarbutton.bookmark-item .toolbarbutton-text,
+#personal-bookmarks toolbarbutton.bookmark-item .toolbarbutton-text-shadow {
+	padding-left: 2px !important;
+}
+
+/* Removes the 'folder' icons for bookmark bar bookmarks */
+#bookmarks-ptf toolbarbutton.bookmark-item .toolbarbutton-icon,
+#personal-bookmarks toolbarbutton.bookmark-item .toolbarbutton-icon {
+	display: none !important;
+}
+
+/* Centre bookmarks in the bookmarks bar - looks much better this way */
+#PlacesToolbarItems {-moz-box-pack: center}
