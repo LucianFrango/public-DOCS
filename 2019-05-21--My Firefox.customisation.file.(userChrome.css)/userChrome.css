@@ -15,3 +15,10 @@
 
 /* Centre bookmarks in the bookmarks bar - looks much better this way */
 #PlacesToolbarItems {-moz-box-pack: center}
+
+/* Bookmarks Toolbar - Set the font size larger so its easier to read :) */
+#PersonalToolbar, 
+#PersonalToolbar menuitem,
+#PersonalToolbar menu {
+  font-size: 16px !important;
+}
